@@ -6,6 +6,8 @@ This is a template for building a [Shopify app](https://shopify.dev/docs/apps/ge
 
 - **Order Management**: Efficiently manage and track orders with real-time updates.
 - **Issue Tracking**: View and resolve unresolved issues related to orders.
+   ![telegram-cloud-photo-size-2-5361843245866411765-y](https://github.com/user-attachments/assets/f0762fdf-5456-40ff-8ce9-ff1eef53e68a)
+
 - **User Notifications**: Get notified about pending issues directly within the app.
 
 ## Installation Instructions
