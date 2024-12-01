@@ -1,0 +1,29 @@
+# Learn more about configuring your app at https://shopify.dev/docs/apps/tools/cli/configuration
+
+client_id = "5a2276c64ae13d92d7064989bb06b5b8"
+name = "admin-issue"
+handle = "admin-issue"
+application_url = "https://robertson-tuning-israeli-reduced.trycloudflare.com"
+embedded = true
+
+[build]
+automatically_update_urls_on_dev = true
+dev_store_url = "quickstart-efaa477a.myshopify.com"
+include_config_on_deploy = true
+
+[access_scopes]
+# Learn more at https://shopify.dev/docs/apps/tools/cli/configuration#access_scopes
+scopes = "read_assigned_fulfillment_orders,read_orders,write_assigned_fulfillment_orders,write_fulfillments,write_merchant_managed_fulfillment_orders"
+
+[auth]
+redirect_urls = [
+  "https://robertson-tuning-israeli-reduced.trycloudflare.com/auth/callback",
+  "https://robertson-tuning-israeli-reduced.trycloudflare.com/auth/shopify/callback",
+  "https://robertson-tuning-israeli-reduced.trycloudflare.com/api/auth/callback"
+]
+
+[webhooks]
+api_version = "2024-04"
+
+[pos]
+embedded = false

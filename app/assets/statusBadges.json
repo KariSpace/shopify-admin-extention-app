@@ -1,0 +1,14 @@
+{
+    "completed" : "success",
+    "signed" : "success",
+    "cancelled": "critical",
+    "declined": "critical",
+    "waiting for pharmacy": "info",
+    "waiting for doctor": "info",
+    "Accepted by pharmacy": "info",
+    "approved" : "info",
+    "success" : "success",
+    "error": "warning",
+    "oos": "warning",
+    "OK": "success"
+}
